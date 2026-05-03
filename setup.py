@@ -4,7 +4,7 @@ with open("README.md", "r", encoding="utf-8") as f:
     long_description = f.read()
 
 setup(
-    name="inreelforge",
+    name="indreelforge",
     version="1.0.0",
     author="InReelForge",
     author_email="support@indreelforge.com",
@@ -40,6 +40,6 @@ setup(
         "social-media-api", "instagram-api", "youtube-api", "tiktok-api",
         "facebook-api", "twitter-api", "linkedin-api", "threads-api",
         "pinterest-api", "reddit-api", "bluesky-api",
-        "social-media-posting", "video-upload", "inreelforge",
+        "social-media-posting", "video-upload", "indreelforge",
     ],
 )
