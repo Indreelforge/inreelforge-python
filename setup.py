@@ -14,8 +14,8 @@ setup(
     url="https://indreelforge.com",
     project_urls={
         "Documentation": "https://indreelforge.com/docs",
-        "Source": "https://github.com/Indreelforge/inreelforge-python",
-        "Bug Tracker": "https://github.com/Indreelforge/inreelforge-python/issues",
+        "Source": "https://github.com/Indreelforge/indreelforge-python",
+        "Bug Tracker": "https://github.com/Indreelforge/indreelforge-python/issues",
     },
     packages=find_packages(),
     python_requires=">=3.8",

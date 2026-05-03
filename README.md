@@ -1,7 +1,7 @@
 # InReelForge — Python SDK
 
-[![PyPI version](https://img.shields.io/pypi/v/inreelforge.svg)](https://pypi.org/project/inreelforge/)
-[![Python versions](https://img.shields.io/pypi/pyversions/inreelforge.svg)](https://pypi.org/project/inreelforge/)
+[![PyPI version](https://img.shields.io/pypi/v/indreelforge.svg)](https://pypi.org/project/indreelforge/)
+[![Python versions](https://img.shields.io/pypi/pyversions/indreelforge.svg)](https://pypi.org/project/indreelforge/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 Official Python SDK for the [InReelForge](https://indreelforge.com) Social Media API. Upload videos, photos, and text to **Instagram, YouTube, TikTok, Facebook, X (Twitter), LinkedIn, Threads, Pinterest, Reddit & Bluesky** with a single API call.
@@ -9,13 +9,13 @@ Official Python SDK for the [InReelForge](https://indreelforge.com) Social Media
 ## Installation
 
 ```bash
-pip install inreelforge
+pip install indreelforge
 ```
 
 ## Quick Start
 
 ```python
-from inreelforge import InReelForge
+from indreelforge import InReelForge
 
 client = InReelForge(api_key="your-api-key-here")
 
@@ -118,7 +118,7 @@ print(analytics["total_views"], analytics["engagement_rate"])
 ## Error Handling
 
 ```python
-from inreelforge import InReelForge, InReelForgeError
+from indreelforge import InReelForge, InReelForgeError
 
 try:
     result = client.upload_video(...)
@@ -135,7 +135,7 @@ except FileNotFoundError as e:
 - [Dashboard](https://indreelforge.com/dashboard)
 - [Pricing](https://indreelforge.com/pricing)
 - [Status](https://indreelforge.com/status)
-- [Node.js SDK](https://www.npmjs.com/package/inreelforge)
+- [Node.js SDK](https://www.npmjs.com/package/indreelforge)
 
 ## License
 

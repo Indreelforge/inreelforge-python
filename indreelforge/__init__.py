@@ -6,7 +6,7 @@ TikTok, Facebook, X, LinkedIn, Threads, Pinterest, Reddit & Bluesky
 with a single API call.
 
 Usage:
-    from inreelforge import InReelForge
+    from indreelforge import InReelForge
 
     client = InReelForge(api_key="your-api-key")
     result = client.upload_video(
